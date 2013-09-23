@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Lnmp Raspberry
+category: lnmp
 tags: Mysql php nginx
 description: 心血来潮倒想用Raspberry Pi搭建一个lnmp环境，在借助dnspod做一个动态域名解析（还没有验证），那必须毫不犹豫的折腾一下了。
 ---
