@@ -3,6 +3,7 @@ layout: post
 category: github
 tags: Git Github Jekyll Markdown
 title: Github-Pages-Tutorials
+title1: Github Pages极简教程
 keywords: github教程,github入门,github创建博客教程
 description: 这篇文章的目的是帮助没有用过gihub和jekyll的童鞋尽快掌握使用流程。学习使用github网页的最好办法就是clone别人的代码，看懂他们的代码，并修改成自己喜欢的样子。这篇文章介绍了从最初安装软件到使用的过程。
 ---
