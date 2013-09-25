@@ -82,7 +82,7 @@ margin: 0 auto 50px auto;color: #F8F8F8;border-radius: 10px;}
 /* ---------------- 导航条 ---------------------- */
 /*固定导航条nav 配合 nav-fix-top 或 nav-fix-bottom 可固定导航条于顶部或底部*/
 .nav {background-color: #080808; background: rgba(38,38,38,0.85); width: 100%; min-width: 960px;
-  height: 40px; position: fixed; left: 0; _position: relative; z-index: 400;}
+  height: 50px; position: fixed; left: 0; _position: relative; z-index: 400;}
 .nav-fix-top {top: 0;}
 .nav-fix-bottom {bottom: 0;display: none;}
 
