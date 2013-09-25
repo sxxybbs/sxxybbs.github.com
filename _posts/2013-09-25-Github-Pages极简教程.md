@@ -24,7 +24,7 @@ description: 这篇文章的目的是帮助没有用过gihub和jekyll的童鞋�
 如果你的系统是linux的，按照[Git Hub官方帮助文件](https://help.github.com/articles/set-up-git)操作，然后跳到第四步。
 >如果想深入了解Git，请看[10篇写给Git初学者的最佳教程](http://www.kuqin.com/managetool/20110705/92113.html)。
 	
-###二：安装ruby环境
+### 二：安装ruby环境
 
 推荐安装[RailsInstaller](http://railsinstaller.org/en)，里面包含了Ruby、Rails、Bundler、Git、Sqlite、TinyTDS、SQL Server support和DevKit。
 
@@ -56,7 +56,7 @@ description: 这篇文章的目的是帮助没有用过gihub和jekyll的童鞋�
 2. [BeiYuu的博文](http://beiyuu.com/github-pages/#github)
 3. window下建立github连接
 
-###四：安装jekyll和相关的包
+### 四：安装jekyll和相关的包
 稍微对配置做一下修改，把淘宝的镜像加到gem的镜像列表里，如果没有被封锁你也可以不需要修改。
 
     gem sources --remove http://rubygems.org/
@@ -77,14 +77,14 @@ Jekyll需要用到directory_watcher、liquid、open4、maruku和classifier这几
 
 以上命令涉及到`gem install`的时候，如果你用的是linux系统，就要用`sudo gem install`代替。
 
-###五：建立github pages
+### 五：建立github pages
 我在这里用到了Github提供的Github pages generator的功能，减少了使用的命令数量，也绕开了远程代码库这个概念（省略了与git remote相关的操作，不过随着github使用的加深，这些概念也是不能避免的）
 
 - 在github.com上创建代码库，比如新建一个名为example的代码库：登录到自己的Github账户，选择New repository
 
 ![](http://i.imgur.com/V4fSb.png)
 ![](http://i.imgur.com/ZOCi9.png)
-![](http://i.imgur.com/5waH7.png)
+<img src="http://i.imgur.com/5waH7.png" width="760"/>
 
 - 在线生成pages: 点上图中的Admin
 
@@ -135,26 +135,26 @@ Jekyll需要用到directory_watcher、liquid、open4、maruku和classifier这几
 - 为Jekyll博客添加category 分类
 - 搭建Jekyll博客的一些小技巧
 
-###六：代码高亮
+### 六：代码高亮
 （如果你不贴代码，请跳过这步）
 
 - 用js插件：[DlHightLight](http://mihai.bazon.net/projects/javascript-syntax-highlighting-engine)或[Google Code Prettify](https://code.google.com/p/google-code-prettify/)
 - 用[pygment](http://pygments.org/)：要安装python以及python的包管理软件，又是个大坑，不建议使用，尤其是使用windows的
 
-###七：关于公式
+### 七：关于公式
 （如果你不贴公式，请跳过）
 
 - 使用maruku来解析markdown文件，可以把LaTeX解析成图片，优点是网页加载速度快。但是在windows下安装复杂，且需要安装有LaTeX
 - [Mathjax](http://www.mathjax.org/)，请看[博文](http://yanping.me/cn/blog/2012/03/10/octopress-with-latex/)的介绍，缺点是动态加载，速度慢。
 
-###八：评论
+### 八：评论
 - 国外的[Disqus](http://disqus.com/)和国内的[友言](http://www.uyan.cc/)[多说](http://duoshuo.com/)
 - 其他社会化服务
 >分享：国内的[jiathis](http://jiathis.com/)和国外的[addthis](http://www.addthis.com/)
 
 >图片：国内的[yupoo](http://www.yupoo.com/) 、[poco](http://www.poco.cn/)，国外的[Flickr](http://www.flickr.com/)、[imgur](http://imgur.com/)
 
-###九：关于域名
+### 九：关于域名
 例如：该博客真实域名[sxxybbs.github.com](http://sxxybbs.github.com)绑定二级域名为[blog.sxxybbs.com](http://blog.sxxybbs.com)
 
 
@@ -169,12 +169,12 @@ Jekyll需要用到directory_watcher、liquid、open4、maruku和classifier这几
 
 接着在自己的域名注册商那里改一下指向就行了。如果想对github域名绑定的机制有更多的了解，请看三篇博文:[文1](http://yanping.me/cn/blog/2011/12/04/github-pages-domain/)，[文2](http://yanping.me/cn/blog/2011/12/26/github-pages-domain-2/)和[文3](http://yanping.me/cn/blog/2012/02/06/github-pages-domain-3/)
 
-###十：模板选择
+### 十：模板选择
 
 - [Octopress](http://octopress.org/)：windows下的[教程](http://sinosmond.github.io/blog/2012/03/12/install-and-deploy-octopress-to-github-on-windows7-from-scratch/)，ubuntu下的[教程](http://www.yangzhiping.com/tech/octopress.html)
 - [Jekyll Bootstrap](http://jekyllbootstrap.com/)
 
-###十一：常犯的错误
+### 十一：常犯的错误
 
 - 明明要给是要做项目主页，却在master分支下上传页面。只有名为username.github.com的是个人主代码库，username是你的github用户名，向这个代码库推送的网页默认的是master分支，直接就可以浏览。其他代码库都是项目代码库
 - clone别人的代码库到本地后，没有把它的.git目录删除
