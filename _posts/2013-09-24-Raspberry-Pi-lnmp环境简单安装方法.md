@@ -2,6 +2,9 @@
 layout: post
 category: lnmp
 tags: Mysql php nginx
+pageurl: Raspberry-Pi-lnmp
+title: Raspberry-Pi-lnmp环境简单安装方法
+keywords: Raspberry-Pi-lnmp环境简单安装方法
 description: 心血来潮倒想用Raspberry Pi搭建一个lnmp环境，在借助dnspod做一个动态域名解析（还没有验证），那必须毫不犹豫的折腾一下了。
 ---
 
