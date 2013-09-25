@@ -55,7 +55,7 @@ margin: 60px auto 0;background-color: #fff;border-radius: 10px;}
     padding: 10px 30px 10px 30px;margin: 20px auto 0;}
 .topic .title {white-space: nowrap;width: 700px;margin-left: 100px;
   overflow: hidden;margin-top: 3px;font-size: 24px;}
-.topic p {width: 700px;height: 35px;margin-left: 100px;
+.topic p {width: 700px;height: auto;margin-left: 100px;
   overflow: hidden;margin-top: 3px;}
 
 /* time-backgroud 和 time-meta 配合显示时间片 */
