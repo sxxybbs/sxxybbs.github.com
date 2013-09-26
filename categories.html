@@ -1,6 +1,8 @@
 ---
 layout: default
 title1: sxxybbs博客（分类）
+title1: sxxybbs博客（分类）
+keywords: sxxybbs博客
 description: sxxybbs博客, 技术博客, 分享技术, 关注 web，交流学习，共同进步
 ---
 
@@ -16,7 +18,7 @@ description: sxxybbs博客, 技术博客, 分享技术, 关注 web，交流学�
       <div class="topic">
           <a class="time-backgroud"></a>
           <span class="time-meta">{{ post.date | date: "%Y年%m月%d日" }}</span>
-          <div class="title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+          <div class="title"><a href="{{ post.url }}">{{ post.title1 }}</a></div>
           <p>{{ post.description }}</p>
       </div>
       {% endfor %}
