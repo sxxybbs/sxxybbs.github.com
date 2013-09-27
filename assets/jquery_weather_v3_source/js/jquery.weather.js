@@ -79,7 +79,7 @@
 				html = [],
 				//当前天气子节点数量
 				skyState_child_length = ( this.skyState || '' ).length ,
-				templeteHtml = '<div class="weather-info"><h2>{#city#}<span>{#date#}</span></h2><div class="weather-show"><div class="day_weather"><span class="weather">{#day#} : {#day_weather#}</span>/<span class="temp">{#day_temp#}{#temp#}</span></div><div class="night_weather"><span class="weather">{#night#} : {#night_weather#}</span>/<span class="temp">{#night_temp#}{#temp#}</span></div></div><div class="julying-weather-copy"><a href="http://julying.com/lab/weather/" target="_blank" title="&copy;{#wangzimo#}">julying</a></div></div>',
+				templeteHtml = '<div class="weather-info"><h2>{#city#}<span>{#date#}</span></h2><div class="weather-show"><div class="day_weather"><span class="weather">{#day#} : {#day_weather#}</span>/<span class="temp">{#day_temp#}{#temp#}</span></div><div class="night_weather"><span class="weather">{#night#} : {#night_weather#}</span>/<span class="temp">{#night_temp#}{#temp#}</span></div></div><div class="julying-weather-copy"></div></div>',
 				i = 0
 			;
 			for( ; i < skyState_child_length ; i++){
