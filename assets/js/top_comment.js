@@ -26,6 +26,6 @@ function heartBeat(){
 }
 
 
-suspendcode="<div id=\"full\" style='display:none; width:15px; height:57px; POSITION:absolute; left:50%; top:460px; margin-left:415px;  z-index:500; text-align:center;'><a href='#'><img src='/assets/img/btn_top.gif' /></a><br><br><a href='#comment'><img src='/assets/img/btn_comment.gif' /></a></div>";
+suspendcode="<div id=\"full\" style='display:none; width:15px; height:57px; POSITION:absolute; left:50%; top:460px; margin-left:415px;  z-index:500; text-align:center;'><a href='#'><img src='/assets/img/btn_top.gif' /></a><br><br><a href='#comments'><img src='/assets/img/btn_comment.gif' /></a></div>";
 document.write(suspendcode);
 window.setInterval("heartBeat()",1);
