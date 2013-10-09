@@ -1,7 +1,7 @@
 ---
 layout: post
 category: webshell
-tags: webshell
+tags: webshell php
 title1: php无文件后门
 keywords: php无文件后门
 description: 将 webshel.php 传到服务器之后访问一次他会自删除。但，依然会在后台执行 webshell.txt 中的代码。
