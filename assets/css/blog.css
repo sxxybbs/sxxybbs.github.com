@@ -115,3 +115,6 @@ margin: 0 auto 50px auto;color: #F8F8F8;border-radius: 10px;}
 @-o-keyframes spinoffPulse{0%{-o-transform:rotate(0deg);}100%{-o-transform:rotate(360deg);}}
 @-ms-keyframes spinPulse{0%{-ms-transform:rotate(160deg);opacity:0;box-shadow:0 0 1px #505050;}50%{-ms-transform:rotate(145deg);opacity:1;}100%{-ms-transform:rotate(-320deg);opacity:0;}}
 @-ms-keyframes spinoffPulse{0%{-ms-transform:rotate(0deg);}100%{-ms-transform:rotate(360deg);}}
+
+/* 多说 */
+.ds-powered-by{ dispaly:none;}
