@@ -2,9 +2,9 @@
 layout: post
 category: linux
 tags: linux 
-title1: pt
-keywords: 
-description: 
+title1: Resolve Unable to install anything with apt
+keywords: depends on plymouth and therefore on system facility $all
+description: insserv Starting gnhostlinuxd depends on plymouth and therefore on system facility $all which can not be true!
 ---
 
 ### Problem
