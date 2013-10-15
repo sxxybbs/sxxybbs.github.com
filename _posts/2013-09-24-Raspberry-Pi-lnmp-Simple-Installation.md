@@ -82,3 +82,11 @@ description: 心血来潮倒想用Raspberry Pi搭建一个lnmp环境，在借助
 最后别忘记放在后台运行哦，呵呵。
 
     python 脚本名称  &
+
+### shell代码
+
+采用如下shell. dnspod加了对ddns的api支持 .它试图从request里读取要更新的ip
+
+	curl -X POST https://dnsapi.cn/Record.Ddns -d 'login_email=XXX&login_password=XXX&format=json&domain_id=2927298&record_id=44461709&record_line=%E9%BB%98%E8%AE%A4'
+
+
