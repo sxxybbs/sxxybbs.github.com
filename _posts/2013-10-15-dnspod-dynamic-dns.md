@@ -93,7 +93,7 @@ crontab的教程：<a href="http://blog.sxxybbs.com/2013/10/15/crontab.html" tar
 
 下面就要用到crontab的用法，其中/5表示没五分钟执行一次dnspod.sh命令，dnspod.sh需要跟绝对路径：
 
-	/5 * * * * * /dnspod.sh
+	*/5 * * * * * /dnspod.sh
 
 能够成功实现。据说上面的python代码出错的原因是dnspod的API更新了引起的。
 
