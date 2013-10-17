@@ -97,6 +97,8 @@ crontab的教程：<a href="http://blog.sxxybbs.com/2013/10/15/crontab.html" tar
 
 能够成功实现。据说上面的python代码出错的原因是dnspod的API更新了引起的。
 
+参考资料：https://www.dnspod.cn/docs/index.html
+
 
 
 
