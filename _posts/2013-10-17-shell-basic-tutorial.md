@@ -284,7 +284,5 @@ bash在使用test测试时用方括号将整个test测试括起来
 	done
 	
 	}
-
-调用函数iscontinue
-
-iscontinue
+	#调用函数iscontinue
+	iscontinue
