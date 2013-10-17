@@ -1,7 +1,7 @@
 ---
 layout: post
 category: linux
-tags: linux,shell  
+tags: linux shell  
 title1: shell编程基础
 keywords: shell编程基础
 description: 通常情况下，从命令行每输入一次命令能够得到系统的一次响应。但是如果一个接一个的去输入命令，那么效率会很低，而使用shell程序或者shell脚本可以很好的解决这个问题。shell程序是解释执行的不需要编译成目的程序。
