@@ -4,8 +4,7 @@ category: linux
 tags: linux
 title1: linux 配置静态ip地址
 keywords: linux,静态ip地址
-description:Linux
-/etc/sysconfig/network-script/ifcfg-eth0文件中存放着网卡IP地址配置的相关信息。
+description:Linux系统下如何设置IP地址？我们可以通过命令设定IP的方法，不过此方法的前提条件是用户需root权限。在Linux系统文件中存放着网卡IP地址配置的相关信息。
 ---
 
 ### 1.修改IP
