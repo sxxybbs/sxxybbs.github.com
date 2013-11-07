@@ -62,4 +62,4 @@ description: 一直采用的租用虚拟机在跑论坛，最近越来越慢了�
 
 至此整个搬家过程完成。
 
-效果查看地址：[http://sxxybbs.vicp.cc](http://sxxybbs.vicp.cc)
+效果查看地址：[http://www.sxxybbs.com](http://www.sxxybbs.com)
