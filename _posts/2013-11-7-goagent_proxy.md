@@ -1,7 +1,7 @@
 ---
 layout: post
 category: google
-tags: google 
+tags: Google 
 title1: goagent代理使用教程
 keywords: goagent,代理,免费翻墙软件
 description: 今天在使用goagent时出现"403 thats an erroryour client does not have permission to get url /2 from this server. thats all we know."导致无法翻墙了，找不到原因，于是乎只能删除重新安装一次了。以前的goagent版本3.0.2，现在安装版本3.0.6，发现还是不稳定，难道乎要开会了。
