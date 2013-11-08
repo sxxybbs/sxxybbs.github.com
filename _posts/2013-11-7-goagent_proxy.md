@@ -13,7 +13,7 @@ description: 今天在使用goagent时出现"403 thats an erroryour client does 
 
 <p>goagent虽然比较好用，但goagent代理传输中的数据是没有加密的，由于Google App Engine的IP段（位于美国）被国内封锁了，使用GAE托管程序的goagent通常用的是谷歌中国在北京数据中心的IP地址。如果你对代理的数据安全很看重，就别选择goagent，要选择那些能加密数据的代理工具，如果对于代理安全性没有什么特别要求，使用goagent即可。</p><br>
 
-<p>为方便大家，这里再分享几款安全性非常出色的代理工具，全部完全免费，采用高强度加密代理，可保障用户安全，而且代理速度很快，使用方法比goagent更为简单，需要的朋友可以[【下载】](http://www.goagent8.info/tool.rar)</p>
+<p>为方便大家，这里再分享几款安全性非常出色的代理工具，全部完全免费，采用高强度加密代理，可保障用户安全，而且代理速度很快，使用方法比goagent更为简单，需要的朋友可以<a href='http://www.goagent8.info/tool.rar'>【下载】</a></p>
 
 ### 2.goagent下载使用方法
 
