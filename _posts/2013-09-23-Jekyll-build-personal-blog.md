@@ -1,6 +1,6 @@
 ---
 layout: post
-category: 其它
+category: github
 tags: Jekyll Markdown Git
 title1: Jekyll-搭建个人博客
 keywords: Jekyll搭建个人博客
