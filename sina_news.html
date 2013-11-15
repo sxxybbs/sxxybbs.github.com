@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="投票数据每日23:30更新。" />
-<meta name="keywords" content="重庆 投票 人物 结果 2013感动重庆十大人物" />
-<title>2013感动重庆年度人物投票情况_本地新闻_新闻_重庆视界网—重庆网络广播电视台——重庆最大的影视音频门户网</title>
+<meta name="description" content="新浪新闻据点" />
+<meta name="keywords" content="新浪新闻据点" />
+<title>新浪新闻据点</title>
 								
 <style>
 *{ margin:0; padding:0;}
@@ -18,7 +18,7 @@ a:hover{ color:#700707;  }
 .clear{ clear:both;}
 
 .juhediv{padding-left:3px;clear:both;width:710px;}
-.juhediv li a{color:#fff;font-weight:bold;font-size:18px;}
+.juhediv li a{color:#fff;font-weight:bold;font-size:16px;}
 .click_shuxin{cursor:pointer;border-bottom:1px solid #F4F4F4;background:url("http://img.cbg.cn/templates/cqtv/images/shuaxin.png") no-repeat scroll right 0 transparent;height:16px;display:block;margin:0 0 7px;}
 .ju_ul{
 	background:#fff;
@@ -196,7 +196,7 @@ a:hover{ color:#700707;  }
   height:80px;
 }
 </style>
-<script type="text/javascript" src="http://img.cbg.cn/templates/cqtv/js/jquery.min.js"></script>	
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>	
 <script>
 $(document).ready(function(){
 	juhe_ajax();
@@ -225,7 +225,7 @@ function juhe_ajax(){
 	 var class_array2 = new Array('ju_li_4','ju_li_5','ju_li_6','ju_li_7');
 	 var class_array3 = new Array('ju_li_8','ju_li_9','ju_li_10','ju_li_11','ju_li_12');
     // var class_array = new Array('ju_li_0','ju_li_1','ju_li_2','ju_li_3','ju_li_4','ju_li_5','ju_li_6','ju_li_7','ju_li_8','ju_li_9','ju_li_10','ju_li_11','ju_li_12');
-	 $.getJSON("http://12345a.sinaapp.com/sina_news.php",{sid:sid},function(result){
+	 $.getJSON("http://12345a.sinaapp.com/sina_news.php?jsoncallback=?",function(result){
 		    if(result){
 			   $.each(result,function(i,item){
 				   if(i<4){
