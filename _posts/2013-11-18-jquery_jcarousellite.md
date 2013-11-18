@@ -1,6 +1,6 @@
 ---
 layout: post
-category: 
+category: jquery
 tags: jquery
 title1: Jquery jcarousellite使用
 keywords: Jquery jcarousellite使用
