@@ -28,7 +28,7 @@ description:
 	</head>
 	<body>
 	<form action="xml.php" method="post">
-	<input type="hidden" name="save" value="save" />
+	<input type="hidden" name="action" value="save" />
 	标题：<input type="text" name="title"><br>
 	内容: <textarea name="content" cols="50" rows="10"></textarea><br>
 	<input type="submit" value="submit" />
