@@ -28,7 +28,7 @@ description: 做一张高端大气上档次的图片，经过处理后，上传�
 
 <p>然后我们把缩短了的路径在QQ空间日志功能里输入</p>
 
-<p>源码下载：<a href='http://pan.baidu.com/s/1giVS'>http://pan.baidu.com/s/1giVS</a></p>
+<p>源码下载：<a href='http://pan.baidu.com/s/1giVS' target='_blank'>http://pan.baidu.com/s/1giVS</a></p>
 
 
 
