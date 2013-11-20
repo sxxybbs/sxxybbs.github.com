@@ -1,5 +1,7 @@
 ---
 layout: post
+category: php
+tags: php
 title1: qq空间魔力日志源码分享
 keywords: qq空间魔力日志源码分享
 description: 做一张高端大气上档次的图片，经过处理后，上传到虚拟空间。发表在qq空间日志里，让小伙伴们惊呆去吧。
