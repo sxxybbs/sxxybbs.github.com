@@ -21,6 +21,10 @@ description: QUIT处理完当前请求后关闭,HUP平滑启动,USR1日志切割
 	#wget http://nginx.org/download/nginx-1.4.4.tar.gz
 	# tar zxvf nginx-1.3.9.tar.gz
 	# cd nginx-1.3.9/
+	#编译auto/cc/gcc文件,删除或者注释如下两行取消nginx在debug模式下编译，可减少编译后的大小，减少编译时间
+	1.#debug
+	2.CFLAGS="$CFLGS -g"
+	
 	# ./configure --user=www --group=www --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_ssl_module
 	# make
 	# make install
