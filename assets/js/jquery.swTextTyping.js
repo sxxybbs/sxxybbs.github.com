@@ -134,8 +134,8 @@
 
         function test(){
             $(".blink").fadeOut("slow");
-            $(".blink").fadeIn("slow");
-            setTimeout(test(),500);
+            //$(".blink").fadeIn("slow");
+            //setTimeout(test(),500);
         }
     }
 })(jQuery);
