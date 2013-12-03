@@ -138,3 +138,81 @@ margin: 0 auto 50px auto;color: #F8F8F8;border-radius: 10px;}
 	overflow:hidden;
 	opacity: 0.7;
 }
+
+/*weixin*/
+.mqrcode-wrap {
+display: inline;
+position: relative;
+visibility:hidden;
+-webkit-transition: 0s visibility;
+-moz-transition: 0s visibility;
+-o-transition: 0s visibility;
+transition: 0s visibility;
+}
+.mqrcode.ui-poptipnoc {
+position: absolute;
+display: block;
+padding: 0;
+left: -96px;
+top: 16px;
+width: 150px;
+height: 170px;
+}
+.ui-poptipnoc-bottom .ui-poptipnoc-arrow {
+left: 50%;
+top: -11px;
+margin-left: -11px;
+border-top-width: 0;
+border-bottom-color: #ccc;
+}
+.ui-poptipnoc-arrow {
+border-width: 11px;
+}
+.ui-poptipnoc-bottom .ui-poptipnoc-arrow i {
+top: 1px;
+margin-left: -10px;
+border-top-width: 0;
+border-bottom-color: #fff;
+}
+.ui-poptipnoc-arrow i {
+border-width: 10px;
+}
+.ui-poptipnoc-arrow, .ui-poptipnoc-arrow i {
+position: absolute;
+display: block;
+width: 0;
+height: 0;
+border-style: solid;
+_border-style: dashed;
+border-color: transparent;
+}
+.ui-poptipnoc-bottom {
+margin-top: 10px;
+}
+.ui-poptipnoc {
+position: absolute;
+top: 0;
+left: 0;
+z-index: 200;
+display: none;
+padding: 1px;
+background-color: #fff;
+-webkit-background-clip: padding-box;
+-moz-background-clip: padding;
+background-clip: padding-box;
+border: 1px solid #ccc;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+-moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+white-space: normal;
+}
+.mqrcode-img {
+margin: 5px;
+margin-bottom: 1px;
+width: 140px;
+height: 140px;
+background: url("/assets/img/qrcode_for_weixin.jpg");
+}
