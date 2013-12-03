@@ -12,7 +12,7 @@ h5{font-weight: 500; font-size: 20px;}
 h6{ ont-weight: 400; font-size: 16px;}
 ul{margin:1em 0 1em 2em;}
 ol{margin:1em 0 1em 2em;}
-ul li,ol li{margin-top:.5em;margin-bottom:.5em;text-decoration: none;clear: both;}
+ul li,ol li{margin-top:.5em;margin-bottom:.5em;text-decoration: none;}
 ul ul,ul ol,ol ol,ol ul{margin-top:0;margin-bottom:0;}
 hr{height:1px;border:none;border-top:1px dashed #555555;margin: 5px auto 20px auto;}
 code{padding: 2px 4px; color: #d14;
