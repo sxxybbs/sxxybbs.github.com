@@ -216,3 +216,13 @@ width: 140px;
 height: 140px;
 background: url("/assets/img/qrcode_for_weixin.jpg");
 }
+
+/*搜索*/
+.search{
+background: url("/assets/img/search.png") no-repeat scroll 5px 3px transparent;
+border: 1px solid #CCCCCC;
+border-radius: 3px 3px 3px 3px;
+font-size: 12px;
+line-height: 1.2em;
+padding: 4px 10px 4px 28px;
+	}
