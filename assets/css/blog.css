@@ -214,5 +214,45 @@ margin: 5px;
 margin-bottom: 1px;
 width: 140px;
 height: 140px;
-background: url("/assets/img/qrcode_for_weixin.jpg");
+background: url("http://blog.sxxybbs.com/assets/img/qrcode_for_weixin.jpg");
+}
+
+
+.mqrcode.ui-poptipnoc1 {
+position: absolute;
+display: block;
+padding: 0;
+left: -80px;
+top: 16px;
+width: 150px;
+height: 170px;
+}
+
+.ui-poptipnoc1 {
+position: absolute;
+top: 0;
+left: 0;
+z-index: 200;
+display: none;
+padding: 1px;
+background-color: #fff;
+-webkit-background-clip: padding-box;
+-moz-background-clip: padding;
+background-clip: padding-box;
+border: 1px solid #ccc;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+-moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+white-space: normal;
+}
+
+.mqrcode-img1{
+margin: 5px;
+margin-bottom: 1px;
+width: 140px;
+height: 140px;
+background: url("http://blog.sxxybbs.com/assets/img/web_app.jpg");
 }
