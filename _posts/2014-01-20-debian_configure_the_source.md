@@ -48,6 +48,7 @@ description: 在安装debian系统后想通过putty来链接，发现默认情�
 	deb http://mirrors.sohu.com/debian/ lenny main non-free contrib
 	deb http://mirrors.sohu.com/debian/ lenny-proposed-updates main non-free contrib
 	deb-src http://mirrors.sohu.com/debian/ lenny main non-free contrib
+	deb-src http://mirrors.sohu.com/debian/ lenny-proposed-updates main non-free contrib
 	
 	
 	#保存后更新源
