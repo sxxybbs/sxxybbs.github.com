@@ -9,16 +9,6 @@ var duoshuoQuery = {short_name:"sxxybbs"};
 		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
 	})();
 </script>
-
-<style type="text/css">
-  #ds-recent-comments li.ds-comment .ds-avatar {
-    left: -25px !important;}
-table{ margin:0px;}
-.gsc-input-box {
-	height:auto;
-}
-</style>
-
 <div class="topic well-header">
   <h3>最近文章：<span style="float:right; width:410px;margin-top:-15px; height:50px;"><script>
   (function() {
@@ -32,7 +22,7 @@ table{ margin:0px;}
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<gcse:search></gcse:search>
+<script type="text/javascript">document.write("<gcse:search></gcse:search>");</script>
 </span></h3>
   <ul>
   {% for post in site.posts limit:10 %}
@@ -40,8 +30,9 @@ table{ margin:0px;}
   {% endfor %}
   </ul>
 </div>
-<div class="topic"><iframe src="/sina_news.html" width="100%" height=340px frameborder='0'></iframe></div>
+<div class="topic"><script type="text/javascript">document.write("<iframe src='/sina_news.html' width='100%' height='340px' frameborder='0'></iframe>");</script></div>
 <div class="topic well-header">
   <h3>最近评论：</h3>
   <ul class="ds-recent-comments" data-num-items="10"></ul>
 </div>
+<script type="text/javascript">document.write("<style type='text/css' >#ds-recent-comments li.ds-comment .ds-avatar {left: -25px !important;}table{ margin:0px;}.gsc-input-box {height:auto;}</style>")</script>
