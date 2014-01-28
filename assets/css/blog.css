@@ -9,7 +9,7 @@ h2{font-weight: 800; font-size: 32px;}
 h3{font-weight: 700; font-size: 28px; color: rgb(68, 92, 32); margin: 15px auto;}
 h4{font-weight: 600; font-size: 24px;}
 h5{font-weight: 500; font-size: 20px;}
-h6{ ont-weight: 400; font-size: 16px;}
+h6{font-weight: 400; font-size: 16px;}
 ul{margin:1em 0 1em 2em;}
 ol{margin:1em 0 1em 2em;}
 ul li,ol li{margin-top:.5em;margin-bottom:.5em;text-decoration: none;}
@@ -63,7 +63,7 @@ margin: 60px auto 0;background-color: #fff;border-radius: 10px;}
   position: absolute;text-indent: -9999em;z-index: -1;transform: rotate(27deg);
   background: url(/assets/img/opcity.png) repeat scroll 0 0 #eb374b;cursor: default;
   -ms-transform: rotate(27deg);-moz-transform: rotate(27deg);-webkit-transform: rotate(27deg);}
-.time-meta {display: block;zoom: 1;line-height: 35px;color: #fff;overflow: hidden;
+.time-meta {display: block;line-height: 35px;color: #fff;overflow: hidden;
   width: auto;height: 37px;padding-left: 20px;padding-right: 20px;position: absolute;
   top: 22px;left: -30px;z-index: 30;background-color: #eb374b;}
 
@@ -107,6 +107,7 @@ margin: 0 auto 50px auto;color: #F8F8F8;border-radius: 10px;}
 #circle{background-color:rgba(0,0,0,0);border:5px solid rgba(10,10,10,0.9);opacity:.9;border-right:5px solid rgba(0,0,0,0);border-left:5px solid rgba(0,0,0,0);border-radius:50px;box-shadow:0 0 35px #808080;width:60px;height:60px;margin:0 auto;position:fixed;left:30px;bottom:30px;-moz-animation:spinPulse 1s infinite linear;-webkit-animation:spinPulse 1s infinite linear;-o-animation:spinPulse 1s infinite linear;-ms-animation:spinPulse 1s infinite linear;}
 #circle1{background-color:rgba(0,0,0,0);border:6px solid rgba(20,20,20,0.9);opacity:.9;border-left:6px solid rgba(0,0,0,0);border-right:6px solid rgba(0,0,0,0);border-radius:50px;box-shadow:0 0 15px #202020;width:40px;height:40px;margin:0 auto;position:fixed;left:39px;bottom:39px;-moz-animation:spinoffPulse 1s infinite linear;-webkit-animation:spinoffPulse 1s infinite linear;-o-animation:spinoffPulse 1s infinite linear;-ms-animation:spinoffPulse 1s infinite linear;}
 #circletext{width:46px;height:20px;margin:0 auto;position:fixed;left:46px;bottom:53px;}
+
 @-moz-keyframes spinPulse{0%{-moz-transform:rotate(160deg);opacity:0;box-shadow:0 0 1px #505050;}50%{-moz-transform:rotate(145deg);opacity:1;}100%{-moz-transform:rotate(-320deg);opacity:0;}}
 @-moz-keyframes spinoffPulse{0%{-moz-transform:rotate(0deg);}100%{-moz-transform:rotate(360deg);}}
 @-webkit-keyframes spinPulse{0%{-webkit-transform:rotate(160deg);opacity:0;box-shadow:0 0 1px #505050;}50%{-webkit-transform:rotate(145deg);opacity:1;}100%{-webkit-transform:rotate(-320deg);opacity:0;}}
