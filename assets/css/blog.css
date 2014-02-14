@@ -21,7 +21,7 @@ pre code{margin: 10px; border-radius: 10px; -moz-border-radius: 10px;
   -webkit-border-radius: 10px; overflow-x: hidden;}
 blockquote{margin:1em 0;border-left:5px solid #ddd;padding-left:.6em;color:#555;}
 p{text-indent:2em;margin-bottom: 10px; line-height:25px;}
-img{margin: 5px 20px;}
+/*img{margin: 5px 20px;}*/
 a{text-decoration: none; color: rgb(18, 165, 124);}
 li a:hover { color: rgb(52, 190, 52);}
 table { width: 90%; margin: 20px; border-spacing: 2px; border-color: gray;
