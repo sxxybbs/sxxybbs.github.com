@@ -41,7 +41,7 @@ Linux练习笔记<br/>
 30.set nu vi编辑器<br/>
 31.set ic; / ! <br/>
 
-<h3>第二章：linux常用的命令<h3><br/>
+<h3>第二章：linux常用的命令</h3><br/>
 1.pwd<br/>
 2.cd ~a<br/>
 3.ls –al /<br/>
@@ -92,7 +92,8 @@ Linux练习笔记<br/>
 4.cat /proc/partitions<br/>
 5.ln –s file1 file2<br/>
 <p>眼睛看累了，休息下吧。<br/><img src='/assets/img/beauty/juhela.jpg'/></p>
- <h3>第四章：用户和群组账户管理<h3><br/>
+
+ <h3>第四章：用户和群组账户管理</h3><br/>
 1.useradd tong<br/>
 2.cat /etc/passwd | grep tong<br/>
 3.usermod –l tong1 tong<br/>
@@ -134,7 +135,7 @@ Linux练习笔记<br/>
 39.who<br/>
 40.chage<br/>
 
-<h3>第五章：软件包管理<h3><br/>
+<h3>第五章：软件包管理</h3><br/>
 1.yum -y install httpd php mysql mysql-server php-mysql httpd-manual mod_ssl mod_perl mod_auth_mysql php-gd php-xml php-mbstring php-ldap php-pear php-xmlrpc php-devel mysql-connector-odbc mysql-devel libdbi-dbd-mysql<br/>
 2.rpm –ivh [--replacepkgs] packagename<br/>
 3.rpm –e [--nodeps] packagename<br/>
@@ -160,13 +161,13 @@ Linux练习笔记<br/>
 23.unzip –n test.zip –d /home<br/>
 24.unzip –v test.zip<br/>
 
- <h3>第六章：磁盘管理<h3><br/>
+ <h3>第六章：磁盘管理</h3><br/>
 1.ls –l /dev|grep sd<br/>
 2.fdisk /dev/sd3根据交互式进行相关操作<br/>
 3.lvm逻辑卷管理器<br/>
 4.RAID<br/>
 
- <h3>第七章：文件系统<h3><br/>
+ <h3>第七章：文件系统</h3><br/>
 1.使用fdisk进行分区，mkfs在分区上创建文件系统，使用mount进行挂载文件系统，umount卸载文件系统<br/>
 2.fdisk –l /dev/sd<br/>
 3.mkfs –t ext3 /dev/sd<br/>
@@ -200,7 +201,7 @@ Linux练习笔记<br/>
 31.swapoff /dev/sdb1<br/>
 32.cat /etc/fstab<br/>
 
-  <h3>第八章：磁盘配额和权限设置<h3><br/>
+  <h3>第八章：磁盘配额和权限设置</h3><br/>
 1.修改/etc/fstab,启动文件系统的配额功能<br/>
 2.重新挂载文件系统<br/>
 3.创建配额文件<br/>
@@ -220,7 +221,7 @@ Linux练习笔记<br/>
 17.chown user.user /test<br/>
 18.umask 700<br/>
 
- <h3>第九章：linux系统启动<h3><br/>
+ <h3>第九章：linux系统启动</h3><br/>
 1.BIOS自检<br/>
 2.启动GRUB引导加载程序<br/>
 3.加载内核<br/>
@@ -232,7 +233,7 @@ Linux练习笔记<br/>
 9.runlevel<br/>
 10.cat /boot/grub/grub.conf<br/>
 
-<h3>第十章：进程和服务管理<h3><br/>
+<h3>第十章：进程和服务管理</h3><br/>
 1.ps<br/>
 2.top<br/>
 3.kill<br/>
@@ -242,7 +243,7 @@ Linux练习笔记<br/>
 7.checkconfig –level 345 httpd on<br/>
 8.checkconfig –add <br/>
 
- <h3>第十一章：作业控制和任务计划<h3><br/>
+ <h3>第十一章：作业控制和任务计划</h3><br/>
 1.手工启动，后台启动，调度启动<br/>
 2.进程的挂起和恢复<br/>
 3.vi /etc/passwd --ctrl+z进程挂起<br/>
