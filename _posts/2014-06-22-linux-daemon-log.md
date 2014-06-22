@@ -20,7 +20,7 @@ description: 七上八下回忆下关于linux守护进程和日志的相关知�
 <p>super daemon的配置文件/etc/xinetd.conf，个别文件也可能在/etc/xinetd.d/*内。配置文件还可以设置连接客户端的链接与否，具有类似防火墙的功能。若想统一管理防火墙的功能，可以通过/etc/hosts.{allow,deny}，如安装了wrappers时还可以使用额外的spawn功能。如果想开机设置某个服务可以通过chkconfig等命令来完成</p>
 <p><img src="/assets/img/beauty/xiaohua-1.jpg"></p>
 
-<h3>Linux 日志记录部分<h3>
+<h3>Linux 日志记录部分</h3>
 
 <p>日志文件可以记录时间的时间，地址，何人，何事四大信息，因此系统发现有故障的时候必然要查看文件日志。日志文件一般情况下都放在/var/log文件夹下，其中messages记录的信息很重要。日志文件记录主要的服务与程序为：syslogd,klogd,log因各个Linux的版本不一样有微小的差异。syslogd的配置文件/etc/rsyslog.conf，去查看下相应的内容吧。内容语法大概就是:服务.等级 记载设备或者文件。</p>
 <p>如果我们同时管理了多台Linux那是不是需要我们管理人员分别登陆每一台查看对应的日志呢，其实不是的。Linux提供了日志文件服务器的功能，可以通过修改/etc/sysconfig/rsyslog中的配置文件来开启日志文件服务器。采用netstat -tnulp | grep 'syslog'来查看是否开启了。日志文件的轮替logrotate，logrotate是通过crontab来实现的，具体的可以查看/etc/cron.daily/logrorate,而logrotate的配置文件可以查看/etc/logrorate.conf和/etc/logrorate.d/*内，建议去查看下相应的语法。举一个实例：</p>
