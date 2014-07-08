@@ -30,8 +30,8 @@ description: 一个简单的iptables实例,实例演示的内容为,iptables封�
 </p>
 
 	#举例
-iptables -L
-iptables -F
+	iptables -L
+	iptables -F
 
 <br>
 <img src='/assets/img/beauty/20140708141928.jpg'>
