@@ -41,7 +41,7 @@ description: 一个简单的iptables实例,实例演示的内容为,iptables封�
 
 	iptables -F
 
-<br>
+<p></p>
 <img src='/assets/img/beauty/20140708141928.jpg'>
 
 
