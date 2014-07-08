@@ -12,7 +12,11 @@ description: 一个简单的iptables实例,实例演示的内容为,iptables封�
 <h3>命令实例</h3>
 <p>屏蔽单个IP的命令<br></p>
 
-	iptables -I INPUT -s 192.168.9.198 -j DROP
+	#举例
+
+	iptables -L
+
+	iptables -F
 	
 <p>屏蔽IP段的命令<br></p>
 
