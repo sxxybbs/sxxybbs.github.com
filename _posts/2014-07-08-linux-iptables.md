@@ -12,21 +12,18 @@ description: 一个简单的iptables实例,实例演示的内容为,iptables封�
 <h3>命令实例</h3>
 <p>屏蔽单个IP的命令<br></p>
 
-	#
-	iptables -I INPUT -s 192.168.9.198 -j DROP
+	<code>iptables -I INPUT -s 192.168.9.198 -j DROP</code>
 	
 
 <p>屏蔽IP段的命令<br></p>
-	
-	#
-	iptables -I INPUT -s 192.0.0.0/8 -j DROP  #192.0.0.1到192.255.255.254
-	iptables -I INPUT -s 192.168.8.0/24 -j DROP #192.168.8.1到192.168.8.254
+
+	<code>iptables -I INPUT -s 192.0.0.0/8 -j DROP  #192.0.0.1到192.255.255.254
+	iptables -I INPUT -s 192.168.8.0/24 -j DROP #192.168.8.1到192.168.8.254</code>
 
 <p>解除IP或者ip段的命令<br></p>
-	
-	#
-	iptables -D INPUT -s 192.168.9.198 -j DROP
-	iptables -D INPUT -s 192.0.0.0/8 -j DROP
+
+	<code>iptables -D INPUT -s 192.168.9.198 -j DROP
+	iptables -D INPUT -s 192.0.0.0/8 -j DROP</code>
 
 <h3>参数说明</h3>
 <p>
