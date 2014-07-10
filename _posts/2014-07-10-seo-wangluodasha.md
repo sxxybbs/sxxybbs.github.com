@@ -9,19 +9,19 @@ description: 记录我优化一个化妆品网站的整过过程，分阶段性�
 <p>经过一周的工作情况，并没有达到预期的结果。二级栏目并没有收录，可喜的是首页终于对于百度更新了快照。这里我只谈百度，只要百度做好了，其他的几个搜索引擎也会相应的有所提升。注意一点每天坚持观察网站在每个搜索引擎中的排名情况。<br/>
 <img src='/assets/img/beauty/07101.jpg'>
 </p>
-<p>
+<p style="color:rgb(18, 165, 124)">
 <br>
-1.建立的外链
+1.建立的外链<br/>
 http://www.7c.com/siteall/www.wangluodasha.com/ <br/>
-http://tool.chinaz.com/history/?h=www.wangluodasha.com&ht=1<br/> 已收录
+http://tool.chinaz.com/history/?h=www.wangluodasha.com&ht=1 已收录<br/> 
 http://mytool.chinaz.com/baidusort.aspx?host=www.wangluodasha.com&sortType=0 <br/>
-http://tool.chinaz.com/baidu/?wd=www.wangluodasha.com&lm=1&pn=0 <br/>已收录
+http://tool.chinaz.com/baidu/?wd=www.wangluodasha.com&lm=1&pn=0 已收录<br/> 
 http://www.sexcha.com/t_www.wangluodasha.com.html<br/> 
 http://www.cnwzml.com/www..wangluodasha..com <br/>
 http://www.fwol.cn/seo/?url=www.wangluodasha.com <br/>
 http://www.aa2.cn/V_www.wangluodasha.com.html <br/>
-http://www.chaxunche.com/site_www.wangluodasha.com_1.html<br/> 已收录
-http://www.k216.com/ta_www.wangluodasha.com.html <br/>已收录
+http://www.chaxunche.com/site_www.wangluodasha.com_1.html 已收录<br/> 
+http://www.k216.com/ta_www.wangluodasha.com.html 已收录<br/> 
 http://www.id70.com/show_www.wangluodasha.com.html <br/>
 http://www.chaxungu.com/url_www.wangluodasha.com.html <br/>
 http://www.265522.com/url/www.wangluodasha.com.html <br/>
@@ -31,7 +31,7 @@ http://www.1182.org/www.wangluodasha.com<br/>
 
 2.首页幻灯片添加alt图片链接属性<br/>
 
-3.旗舰店以前为跳转地址 改为了现在的<a>标签链接地址<br/>
+3.旗舰店以前为跳转地址 改为了现在的a标签链接地址<br/>
 
 4.二级栏目全部未收录，底部建立二级栏目链接带动收录<br/>
 
@@ -49,4 +49,6 @@ http://www.1182.org/www.wangluodasha.com<br/>
 
 11.网站其它事宜<br/>
 
-12.接下来的任务是加强外链建设长期过程并且添加友情链接(SEO站内站外结合)</p>
+12.接下来的任务是加强外链建设长期过程并且添加友情链接(SEO站内站外结合)<br/>
+<img src='/assets/img/beauty/07102.jpg'>
+</p>
