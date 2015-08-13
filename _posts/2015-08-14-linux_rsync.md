@@ -3,10 +3,10 @@ layout: post
 title1: win服务器和linux同步,linux与linux文件同步
 category: linux
 tags: linux
-keywords: win服务器和linux同步,linux与linux文件同步
+keywords: win服务器和linux同步,linux与linux文件同步,php博客
 description: win服务器和linux同步，linux与linux文件同步。
 ---
-<p>文件备份有多种方法,比如：ftp，nfs，samba，rsync，scp 等。今天主要介绍下rsync同步，之所有用它是由于他具有增量备份的功能。<br/><img src='/assets/img/beauty/2015081401.png' width='460px' height='625px'></p>
+<p>文件备份有多种方法,比如：ftp，nfs，samba，rsync，scp 等。今天主要介绍下rsync同步，之所有用它是由于他具有增量备份的功能。<br/><img src='/assets/img/beauty/2015081401.png'></p>
 
 <h3>win服务器和linux同步,linux与linux文件同步</h3>
 1.服务器安装rsync
@@ -34,12 +34,14 @@ description: win服务器和linux同步，linux与linux文件同步。
 
 
 3.建立用户密码文件，并且设置为只读
+
 	/home/rsync/rsync.ps
 	ke45u:Ak=+35
 
 	chmod 600 rsync.ps
 
 4.创建忽略文件
+
 	/home/rsync/all.list
 	*.tar.gz
 	backupdb/
@@ -55,6 +57,7 @@ windoes版本：
 https://www.itefix.net/cwrsync
 
 1.客户端创建用户密码文件/home/rsync/rsync.ps 和 忽略文件/home/rsync/all.list
+
 	#!/bin/sh
 	rsync -auvz --password-file=/home/rsync/rsync.ps --exclude-from '/home/rsync/all.list' ke45u@123.345.67.7::web /home/www/
 
