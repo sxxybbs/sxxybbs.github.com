@@ -6,7 +6,7 @@ tags: linux
 keywords: vsftpd虚拟用户搭建
 description: vsftpd虚拟用户搭建。
 ---
-<p><br/><img src='/assets/img/beauty/2015081701.png'></p>
+<p><br/><img src='/assets/img/beauty/2015081701.jpg'></p>
 
 <h3>vsftpd虚拟用户搭建</h3>
 1.安装环境
