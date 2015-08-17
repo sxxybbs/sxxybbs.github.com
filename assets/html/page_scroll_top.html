@@ -1,0 +1,319 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+<title>页面功能条_缓慢返回顶部_微信二维码显示</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script>
+$(document).ready(function(){
+	b();
+	$('#backTop').click(function(){
+		//$(document).scrollTop(0);
+		var timer = setInterval(function(){
+					currentPosition=$(document).scrollTop();
+					currentPosition-=10;
+					if(currentPosition>0){
+						window.scrollTo(0,currentPosition); 
+					}else{
+						window.scrollTo(0,0); 
+						clearInterval(timer); 
+					}
+		},1);
+	});
+	
+	$('#weixin_erweima').addClass("weixin_erweima");
+	document.getElementById('j-tmp-mobile-entry').style.visibility='visible';
+	setTimeout(function(){
+			$('#weixin_erweima').removeClass("weixin_erweima");
+			document.getElementById('j-tmp-mobile-entry').style.visibility='hidden';
+			},3000);
+	
+	$('#forum').hover(function(){
+			$(this).addClass("forum");
+		},function(){
+			$(this).removeClass("forum");
+	})
+	
+	$('#help').hover(function(){
+			$(this).addClass("help");
+		},function(){
+			$(this).removeClass("help");
+	})
+
+
+	$('#weixin_erweima').hover(function(){
+			$(this).addClass("weixin_erweima");
+			document.getElementById('j-tmp-mobile-entry').style.visibility='visible';
+	},function(){
+			$(this).removeClass("weixin_erweima");
+			document.getElementById('j-tmp-mobile-entry').style.visibility='hidden';
+	});
+	
+	
+	$('#app_erweima').hover(function(){
+			$(this).addClass("app_erweima");
+			document.getElementById('j-tmp-mobile-entry1').style.visibility='visible';
+	},function(){
+			$(this).removeClass("app_erweima");
+			document.getElementById('j-tmp-mobile-entry1').style.visibility='hidden';
+	});
+	
+	$('#backTop').hover(function(){
+			$(this).addClass("backTopHover");
+		},function(){
+			$(this).removeClass("backTopHover");
+	})
+	
+	$('#j-tmp-mobile-entry').hover(function(){	
+		document.getElementById('j-tmp-mobile-entry').style.visibility='visible';
+		$('#weixin_erweima').addClass("weixin_erweima");
+	},function(){
+		document.getElementById('j-tmp-mobile-entry').style.visibility='hidden';
+		$('#weixin_erweima').removeClass("weixin_erweima");
+	});
+	
+	$('#j-tmp-mobile-entry1').hover(function(){	
+		document.getElementById('j-tmp-mobile-entry1').style.visibility='visible';
+		$('#app_erweima').addClass("app_erweima");
+	},function(){
+		document.getElementById('j-tmp-mobile-entry1').style.visibility='hidden';
+		$('#app_erweima').removeClass("app_erweima");
+	});
+	
+});
+function b(){
+	h=$(window).height();
+	t=$(document).scrollTop();
+	if(t>h){
+		$(".backTop").css({display:"block"});
+	}else{
+		$(".backTop").css({display:"none"});
+	}
+}
+
+$(window).scroll(function(e){
+	b();		
+})
+
+</script>
+<style type="text/css">
+.utilRightFooter {
+position: fixed;
+width: 35px;
+border-top: 1px solid #cccccc;
+height: 144px;
+right: 5px;
+bottom: 180px;
+z-index: 1000;
+}
+
+.utilRightFooter .rightbtn {
+float: left;
+height: 36px;
+width: 33px;
+border: 1px solid #cccccc;
+border-top: none;
+background: url("http://www.sxcq.cn/images/app.png") no-repeat;
+cursor: pointer;
+outline: none;
+}
+
+.utilRightFooter .helpRight {
+background-position: 0px -40px;
+}
+
+.utilRightFooter .twoCodeRight {
+background-position: 0px -80px;
+}
+
+.utilRightFooter .twoCodeRight1 {
+background-position: 0px -118px;
+}
+
+.utilRightFooter .backTop {
+background-position: 0px -158px;
+position: relative;
+display: none;
+}
+
+.utilRightFooter .help1{
+background-position: 0px -40px;
+}
+
+.utilRightFooter .backTopHover{
+background-position: -35px -158px;
+}
+
+.utilRightFooter .forum{
+background-position: -35px 0px;
+}
+
+.utilRightFooter .help{
+background-position: -35px -40px;
+}
+
+.utilRightFooter .weixin_erweima{
+background-position: -35px -80px;
+}
+
+.utilRightFooter .app_erweima{
+background-position: -35px -118px;
+}
+</style>
+
+<style>
+.mqrcode-wrap {
+display: inline;
+position: relative;
+visibility:hidden;
+-webkit-transition: 0s visibility;
+-moz-transition: 0s visibility;
+-o-transition: 0s visibility;
+transition: 0s visibility;
+}
+.mqrcode.ui-poptipnoc {
+position: absolute;
+display: block;
+padding: 0;
+left: -196px;
+top: -5px;
+width: 150px;
+height: 170px;
+}
+.ui-poptipnoc-bottom .ui-poptipnoc-arrow {
+left: 100%;
+top: 75px;
+margin-left: 0px;
+border-top-width: 10px;
+border-left-color: #ccc;
+}
+.ui-poptipnoc-arrow {
+border-width: 11px;
+}
+.ui-poptipnoc-bottom .ui-poptipnoc-arrow i {
+top: -10px;
+margin-left: -12px;
+border-top-width: 10px;
+border-left-color: #fff;
+
+}
+.ui-poptipnoc-arrow i {
+border-width: 10px;
+}
+.ui-poptipnoc-arrow, .ui-poptipnoc-arrow i {
+position: absolute;
+display: block;
+width: 0;
+height: 0;
+border-style: solid;
+_border-style: dashed;
+border-color: transparent;
+}
+.ui-poptipnoc-bottom {
+margin-top: 10px;
+}
+.ui-poptipnoc {
+position: absolute;
+top: 0;
+left: 0;
+z-index: 200;
+display: none;
+padding: 1px;
+background-color: #fff;
+-webkit-background-clip: padding-box;
+-moz-background-clip: padding;
+background-clip: padding-box;
+border: 1px solid #ccc;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+-moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+box-shadow: 1px 1px 3px rgba(0,0,0,0);
+white-space: normal;
+}
+.mqrcode-img {
+margin: 5px;
+margin-bottom: 1px;
+width: 140px;
+height: 140px;
+background: url("http://blog.sxxybbs.com/assets/img/qrcode_for_weixin.jpg");
+}
+/*app*/
+.mqrcode.ui-poptipnoc1 {
+position: absolute;
+display: block;
+padding: 0;
+left: -196px;
+top: 35px;
+width: 150px;
+height: 170px;
+}
+
+.ui-poptipnoc1 {
+position: absolute;
+top: 0;
+left: 0;
+z-index: 200;
+display: none;
+padding: 1px;
+background-color: #fff;
+-webkit-background-clip: padding-box;
+-moz-background-clip: padding;
+background-clip: padding-box;
+border: 1px solid #ccc;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+-moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+box-shadow: 1px 1px 3px rgba(0,0,0,0);
+white-space: normal;
+}
+.mqrcode-img1{
+margin: 5px;
+margin-bottom: 1px;
+width: 140px;
+height: 140px;
+background: url("http://blog.sxxybbs.com/assets/img/web_app.jpg");
+}
+</style>
+
+</head>
+<body style="height:5000px;">
+<div id="utilRightFooter" class="utilRightFooter" style="">	
+	<div id="forum" class="rightbtn" onclick="window.open('http://blog.sxxybbs.com','_self');"></div>
+	
+	<div id="help" class="rightbtn help1" onclick="window.open('http://blog.sxxybbs.com','_self');"></div>
+	
+	<div id="weixin_erweima" class="rightbtn twoCodeRight"></div>
+	
+	<div id="app_erweima" class="rightbtn twoCodeRight1"></div>
+
+	
+	<div id="backTop" class="rightbtn backTop" style="display: none;"></div>
+	
+<div class="mqrcode-wrap" id="j-tmp-mobile-entry">
+                    <div class="mqrcode ui-poptipnoc ui-poptipnoc-bottom">
+                        <div class="ui-poptipnoc-arrow"><i></i></div>
+                        <div class="ui-poptipnoc-bd">
+                            <div class="mqrcode-img"></div>
+                            <p style="color: #666; line-height:18px; margin-top:0px; font-size:14px;text-indent:0px;" align="center">扫描并订阅我的微信</p>
+                        </div>
+                    </div>
+</div>
+
+<div class="mqrcode-wrap" id="j-tmp-mobile-entry1">
+                    <div class="mqrcode ui-poptipnoc1 ui-poptipnoc-bottom">
+                        <div class="ui-poptipnoc-arrow"><i></i></div>
+                        <div class="ui-poptipnoc-bd">
+                            <div class="mqrcode-img1"></div>
+                            <p style="color: #666; line-height:18px; margin-top:0px; font-size:14px;text-indent:0px;" align="center">点击或扫描下载</p>
+                        </div>
+                    </div>
+</div>
+	
+</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="{{ page.keywords}}" />
+    <meta name="description" content="{{ page.description }}" />
+    <script type="text/javascript">document.write("<meta name='ujianVerification' content='9080ddfcf2d0c77b743d5a5ae0035966' />");</script>
+    <meta name="author" content="phpkong">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/blog.css">
+    <script type="text/javascript" src="/assets/js/blog.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <title>{{ page.title1 }}</title>
+	<script type="text/javascript">
+	document.write("<style type='text/css'>@-moz-keyframes spinPulse{0%{-moz-transform:rotate(160deg);opacity:0;box-shadow:0 0 1px #505050;}50%{-moz-transform:rotate(145deg);opacity:1;}100%{-moz-transform:rotate(-320deg);opacity:0;}}@-moz-keyframes spinoffPulse{0%{-moz-transform:rotate(0deg);}100%{-moz-transform:rotate(360deg);}}@-webkit-keyframes spinPulse{0%{-webkit-transform:rotate(160deg);opacity:0;box-shadow:0 0 1px #505050;}50%{-webkit-transform:rotate(145deg);opacity:1;}100%{-webkit-transform:rotate(-320deg);opacity:0;}}@-webkit-keyframes spinoffPulse{0%{-webkit-transform:rotate(0deg);}100%{-webkit-transform:rotate(360deg);}}@-o-keyframes spinPulse{0%{-o-transform:rotate(160deg);opacity:0;box-shadow:0 0 1px #505050;}50%{-o-transform:rotate(145deg);opacity:1;}100%{-o-transform:rotate(-320deg);opacity:0;}}@-o-keyframes spinoffPulse{0%{-o-transform:rotate(0deg);}100%{-o-transform:rotate(360deg);}}@-ms-keyframes spinPulse{0%{-ms-transform:rotate(160deg);opacity:0;box-shadow:0 0 1px #505050;}50%{-ms-transform:rotate(145deg);opacity:1;}100%{-ms-transform:rotate(-320deg);opacity:0;}}@-ms-keyframes spinoffPulse{0%{-ms-transform:rotate(0deg);}100%{-ms-transform:rotate(360deg);}}</style>");
+	</script>
+  </head>
+
+  <body>
+<div id='load'><div></div></div>
+<!--加载中start-->
+<div id="circle"></div>
+<div id="circletext" style="font-size:12px"></div>
+<div id="circle1"></div>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+$("#circletext").text("加载中");
+$(window).load(function() {
+$("#circle").fadeOut(400);
+$("#circle1").fadeOut(600);
+$("#circletext").text("完成了").fadeOut(800);
+});
+});
+</script>
+<!--加载中end-->
+  <script type="text/javascript">document.write("<weather style='width: 100%;position: fixed;'></weather>");</script>

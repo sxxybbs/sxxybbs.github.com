@@ -1,0 +1,58 @@
+---
+layout: post
+category: github
+tags: Jekyll Markdown Git
+title1: Jekyll-搭建个人博客
+keywords: Jekyll搭建个人博客
+description: Jekyll 是一个 Ruby 写的静态站点生成工具，使用 Jekyll 搭建博客框架；撰写文章使用 Markdown，省去排版，样式的烦恼；使用 git 版本管理博客内容，内容永不丢失，并支持免费部署在 Github 上。
+---
+
+### 使用理由
+
+  1. 使用 Markdown， 专心写博客，无样式排版烦恼
+  2. 使用自己喜欢的本地编辑器，本地随时写博客，可以本地预览，方便自己使用
+  3. 并使用 Git 管理博客，内容永不丢失
+  4. 可以部署在 github 上，不用自己购买管理 VPS，甚至域名也可以不买，对学生来说很适合
+  5. 没有第三方博客系统的广告，限制，随心而写
+
+### 如何搭建
+
+  1. 由于 Jekyll 是用 Ruby 写的，因此首先要搭建 Ruby 执行环境，同时安装 git 版本控制工具
+  2. 在 Github 上创建一个仓库，仓库名为 `github 账户名.github.com` 或者 `github 账户名.github.io`
+  3. 克隆仓库到本地，并初始化仓库。然后发布博客，第一次发布后大约需要 `十分钟` 就可以通过 `yourname.github.com` 访问博客了
+
+        git clone https://github.com/yourname/yourname.github.com blog
+        cd blog
+        touch {README.md,index.html}        # 在 README.md 和 index.html 中加入内容
+        git add .
+        git commit -m "初始化提交"
+        git push origin master
+
+  4. 安装 Jekyll 规则搭建个人博客框架，具体参考 [Jekyll官方文档][jekyll]
+
+### Markdown 语法简记
+
+  * `1--6 级标题` 在行首使用 1-6 个 # 号
+  * `块引用` 在一段的第一行前面加上 > 表示一个区块引用， > 可以嵌套
+  * `列表` 无序列表 使用 *、 + 或是 - 作为列表标记，有序列表 则使用 数字接着一个英文句点
+  * `代码` 缩进 4 个空格 表示一个代码块， 使用 反引号（\`）  标记一小段行内代码
+  * `强调` 用一个 * 或 _ 包围转成 \<em> 标签，用两个 * 或 _ 包围转成 \<strong> 标签，
+  * `分割线` 用三个以上的 *、 -、 _ 来建立一个分隔线，行内不能有其他东西
+  * `超链接和图片链接` 图片链接和超链接基本相同，图片链接多一个 ！。都有两种样式：行内式 和 参考式
+
+        行内式：
+            [sxxybbs博客](http://blog.sxxybbs.com "sxxybbs博客")
+            
+        参考式：
+            [sxxybbs博客]
+            [sxxybbs博客]: http://blog.sxxybbs.com "sxxybbs博客"        # 此行可以放在文章的任意位置
+
+  * `反斜杠和自动链接` 特殊字符可用 \ 转义； 把 网址 或 电子邮件信箱 用 <> 包起来，会自动链接
+  * `表格` 不是 Markdown 的标准语法
+
+        |     用户名     |     年龄     |
+        | ------------- | ----------- |
+        |     新垣结衣   |     21      |
+        |     长泽正美   |     21      |
+
+[jekyll]: http://jekyllrb.com/ "Jekyll 官方文档"
